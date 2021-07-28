@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:sunstart_bright_common_flutter/utils/ScreenUtils.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,8 +13,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    window.physicalSize / window.devicePixelRatio;
-
+   ScreenUtils.initialize();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
