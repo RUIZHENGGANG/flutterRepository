@@ -45,6 +45,7 @@ class _SplashAnimationPgState extends State<SplashAnimationPg> with SingleTicker
         animationController.forward();
       }else if(status == AnimationStatus.completed){
         animationController.reverse();
+        Navigator.of(context).pushNamed("/login");
       }
     });
     animationController.forward();

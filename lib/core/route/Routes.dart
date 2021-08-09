@@ -1,19 +1,14 @@
 import 'package:flutter/material.dart';
-// import 'package:time_line_flutter/pages/add/AddStuInfo.dart';
-// import 'package:time_line_flutter/pages/login/Login.dart';
-// import 'package:time_line_flutter/pages/main/MainApp.dart';
-// import 'package:time_line_flutter/profiles/Routes.dart';
-// import 'package:time_line_flutter/pages/register/Register.dart';
-// import 'package:time_line_flutter/pages/search/SearchProject.dart';
+import 'package:sunstart_bright_common_flutter/ui/pages/AnimationSplashPg.dart';
+import 'package:sunstart_bright_common_flutter/ui/pages/LoginPg.dart';
+import 'package:sunstart_bright_common_flutter/ui/pages/MainPg.dart';
 
 
 /// 这是一个路由的配置文件
 final routes = {
-  // "/addStudentInfo":(context)=>AddStudentInfo(),
-  // "/pages.login":(context)=>Login(),
-  // "/pages.register":(context)=>Register(),
-  // "/mainApp":(context)=>MainApp(),
-  // "/searchPrj":(context)=>SearchProject()
+  "/":(context)=>SplashAnimationPg(),
+  "/login":(context)=>LoginPg(),
+  "/main":(context)=>MainPg(),
 };
 
 // ignore: missing_return, top_level_function_literal_block
